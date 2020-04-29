@@ -1,0 +1,12 @@
+2020-04-29 20:04:888 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-29 20:04:451 INFO  HomePage :44 - Clicking on practice button [[ChromeDriver: chrome on WINDOWS (4337d2ea63fd45e13e947518b1b8d153)] -> partial link text: Practi]
+2020-04-29 20:04:979 INFO  PracticePage :19 - Getting practice page text [[ChromeDriver: chrome on WINDOWS (4337d2ea63fd45e13e947518b1b8d153)] -> xpath: //h1[contains(text(),'Practice Page')]]
+2020-04-29 20:04:658 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-29 20:04:112 INFO  HomePage :37 - Clicking on login button [[ChromeDriver: chrome on WINDOWS (c2467e2d9ebebdd1ea98c954133e800b)] -> xpath: //a[@class='navbar-link fedora-navbar-link']]
+2020-04-29 20:04:937 INFO  LoginPage :49 - Getting login confirm message [[ChromeDriver: chrome on WINDOWS (c2467e2d9ebebdd1ea98c954133e800b)] -> xpath: //h1[@class='text-center']]
+2020-04-29 20:04:644 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-29 20:04:262 INFO  HomePage :50 - Clicking on signUp button [[ChromeDriver: chrome on WINDOWS (53a8f3c51dfd056961a0ff9abe0fd2c1)] -> id: header-sign-up-btn]
+2020-04-29 20:04:961 INFO  SignUpPage :23 - Getting sign up text message [[ChromeDriver: chrome on WINDOWS (53a8f3c51dfd056961a0ff9abe0fd2c1)] -> tag name: h1]
+2020-04-29 20:04:621 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-29 20:04:850 INFO  SignUpPage :29 - Clicking on logo [[ChromeDriver: chrome on WINDOWS (2771cccc712f09dbc07589b08be5a31d)] -> xpath: //a[@class='navbar-brand header-logo']//img]
+2020-04-29 20:04:879 INFO  HomePage :29 - Getting Home Page Header [[ChromeDriver: chrome on WINDOWS (2771cccc712f09dbc07589b08be5a31d)] -> xpath: //h2[@class='headline']]

@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12350298300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to practice page",
+        "description": "",
+        "id": "practice-and-login-page-functionality;verify-user-should-navigate-to-practice-page",
+        "after": [
+          {
+            "result": {
+              "duration": 638891300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85108000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "PracticeSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104056700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on practice element",
+            "match": {
+              "location": "PracticeSteps.iClickOnPracticeElement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1558805700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be in practice page successfully",
+            "match": {
+              "location": "PracticeSteps.iShouldBeInPracticePageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11359588600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should navigate to login page",
+        "description": "",
+        "id": "practice-and-login-page-functionality;verify-user-should-navigate-to-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 665297000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "PracticeSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94094900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login element",
+            "match": {
+              "location": "PracticeSteps.iClickOnLoginElement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2859632600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be in login page successfully",
+            "match": {
+              "location": "PracticeSteps.iShouldBeInLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Practice and Login Page Functionality",
+    "description": "As a\r\nUser I want to visit lets kode it website",
+    "id": "practice-and-login-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/learn/letskodeit/resources/featurefile/practiceandlogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11528867600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user should navigate to Sign up page",
+        "description": "",
+        "id": "sign-up-page-and-home-page-functionality;verify-user-should-navigate-to-sign-up-page",
+        "after": [
+          {
+            "result": {
+              "duration": 626896100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "PracticeSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89755900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Sign Up button",
+            "match": {
+              "location": "SignUpSteps.iClickOnSignUpButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2726393900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be on Sign Up page successfully",
+            "match": {
+              "location": "SignUpSteps.iShouldBeOnSignUpPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12007468700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user should navigate to Home page",
+        "description": "",
+        "id": "sign-up-page-and-home-page-functionality;verify-user-should-navigate-to-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 630703800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Sign Up page",
+            "match": {
+              "location": "SignUpSteps.iAmOnSignUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209851000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Lets kode it Logo",
+            "match": {
+              "location": "SignUpSteps.iClickOnLetsKodeItLogo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51786200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be on Home Page successfully",
+            "match": {
+              "location": "SignUpSteps.iShouldBeOnHomePageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up page and Home page functionality",
+    "description": "As a User\r\nI want to visit lets kode it website",
+    "id": "sign-up-page-and-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/learn/letskodeit/resources/featurefile/signupandhomepage.feature"
+  }
+]
